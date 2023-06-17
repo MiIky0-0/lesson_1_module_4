@@ -1,0 +1,8 @@
+def palindrome():
+    """ palindrome function """
+    string_symbols = input().strip()
+    return string_symbols == string_symbols[::-1]
+
+
+print(palindrome())
+
